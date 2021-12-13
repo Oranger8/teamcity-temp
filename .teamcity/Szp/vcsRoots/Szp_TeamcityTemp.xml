@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="dd467410-77cf-4019-b5e1-26c64db32c29" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>teamcity-temp</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="agentGitPath" value="/usr/bin/git" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="main" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:9329f332-9b88-4a2b-8ebf-fd5382ead6ca" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/Oranger8/teamcity-temp.git" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="Oranger8" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
